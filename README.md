@@ -15,6 +15,7 @@ In electron spectroscopy, matter is examined by radiating it with a bright light
    `git clone https://github.com/Theayomideo/spectral-matters`
 2. Navigate to the project directory.
 3. Navigate to the `src` directory to run the main program (analyzer.py).
+4. Load your spectroscopy measurement folder. A test argon measurement is provided [here](./data/test-data)
 
 ## Features
 1. Load Data: Import and structure data from user-specified locations.
