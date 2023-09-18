@@ -20,8 +20,6 @@ This project leans heavily on Python and uses the following libraries:
 - **matplotlib**: For plotting and data visualization.
 - **TkInter-based GUI library**: A custom-built library that provides a simplified interface for GUI operations. Refer to `guilib.py` for details.
 
-> **Note**: Installation methods for libraries vary. While pip installations are common, some might opt for full-stack installers. If you're using the latter, ensure compatibility by checking library versions.
-
 ## Data Details
 
 The provided simulated data comprises multiple measurements, each stored in separate files named in the `measurement_i.txt` format. These files consist of:
