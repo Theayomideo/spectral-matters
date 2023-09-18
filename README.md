@@ -4,6 +4,9 @@ A simple analytical tool for visualizing the photoionization spectra from an ele
 ## Overview
 In electron spectroscopy, matter is examined by radiating it with a bright light and measuring the kinetic energy of electrons that come off it. This tool aids in analysing the photoionization spectrum, which is demonstrated using simulated data based on argon spectra.
 
+## Libraries
+This project uses numpy and matplotlib, and a third-party library, guilib (a custom GUI library built on top of TkInter).
+
 ## Installation
 - Ensure you have Python installed.
 - Install required libraries: numpy and matplotlib.
@@ -16,6 +19,7 @@ In electron spectroscopy, matter is examined by radiating it with a bright light
 2. Navigate to the project directory.
 3. Navigate to the `src` directory to run the main program (analyzer.py).
 4. Load your spectroscopy measurement folder. A test argon measurement is provided [here](./data/test-data)
+5. For more context, check out the project-brief.md
 
 ## Features
 1. Load Data: Import and structure data from user-specified locations.
@@ -23,9 +27,6 @@ In electron spectroscopy, matter is examined by radiating it with a bright light
 3. Remove Linear Background: User-driven subtraction of linear noise.
 4. Calculate Intensities: Determine peak intensities using NumPy with interactive interval selection.
 5. Save Figure: Option for users to save the visualised data plot.
-
-## Libraries
-This project uses numpy and matplotlib, and a third-party library, guilib (a custom GUI library built on top of TkInter).
 
 ## License
 [MIT License](LICENSE)
