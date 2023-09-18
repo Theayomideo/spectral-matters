@@ -2,7 +2,7 @@
 An analytical tool for visualizing the photoionization spectra from an electron spectroscopy experiment
 
 ## Overview
-In electron spectroscopy, matter is examined by radiating it with a bright light and measuring the kinetic energy of electrons that come off it. This tool aids in analyzing the photoionization spectrum of argon using provided simulated data. Learn more about the [concept and requirements](./docs/usage.md).
+In electron spectroscopy, matter is examined by radiating it with a bright light and measuring the kinetic energy of electrons that come off it. This tool aids in analysing the photoionization spectrum, which is demonstrated using simulated data based on argon. Learn more about the [concept and requirements](./docs/usage.md).
 
 ## Installation
 - Ensure you have Python installed.
